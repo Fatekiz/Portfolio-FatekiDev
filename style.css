@@ -316,6 +316,72 @@ a {
 
 /* Resposividad (Celular) */
 @media (max-width: 768px ) {
+/* Breakpoint para móviles medianos (iPhone 11, etc.) */
+@media (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+    .cont_text,
+    .con_works,
+    .works,
+    .con_portfolio {
+        width: 95vw;
+        min-width: unset;
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .con_img img,
+    .gh_image img {
+        width: 90vw;
+        height: auto;
+        max-width: 100vw;
+    }
+    .desc1, .desc2, .gh_desc {
+        width: 90vw;
+        padding: 0;
+    }
+
+    
+    #ramos, #languajes {
+        width: 90vw;
+        margin-left: 0;
+        font-size: 15px;
+    }
+}
+
+/* Breakpoint para móviles pequeños (iPhone SE, etc.) */
+@media (max-width: 375px) {
+    body {
+        font-size: 13px;
+    }
+    .cont_text,
+    .con_works,
+    .works,
+    .con_portfolio {
+        width: 99vw;
+        padding: 0;
+    }
+    .con_img img,
+    .gh_image img {
+        width: 50vw;
+        height: auto;
+    }
+    .desc1, .desc2 {
+        width: 98vw;
+        padding: 0;
+    }
+
+     .gh_desc p{
+        margin-right: 20em;
+     }
+
+    #ramos, #languajes {
+        width: 80vw;
+        margin-left: 0;
+        font-size: 13px;
+    }
+}
 
 #header{
     height: 5em;
@@ -357,9 +423,16 @@ a {
 }
 
 .con_title{
+    width: 27em;
     padding: 2em 0 0 0 ;
-    font-size: small;
+    font-size: 1em;
     margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.con_title h1{
+    font-size: 21px;
 }
 
 .paragraph{
@@ -471,7 +544,7 @@ align-items: center;
 }
 
 .desc1 h1{
-    width: 15em;
+    width: 10em;
     font-size: 1em;
 }
 
@@ -481,7 +554,7 @@ align-items: center;
 }
 
 .desc2 h1{
-    width: 15em;
+    width: 10em;
     font-size: 1em;
 }
 
@@ -499,7 +572,7 @@ align-items: center;
 
 .projecttitle1{
     height: 1.5em;
-    width: 6em;
+    width: 4em;
 }
 
 }
