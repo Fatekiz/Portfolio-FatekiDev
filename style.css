@@ -154,7 +154,7 @@ a {
     display: flex;
     justify-content: space-between; /* Esto hace que los separe a cada extremo - alinea el eje x*/
     align-items: flex-start; /* esto hace que ambos arriba se alineen arriba - alinea eje y */
-    padding: 5em 0;
+    padding: 5em 0 0 0;
     width: 100%;
     background-color: #1B263B;
     color: #E0E1DD;
@@ -342,11 +342,15 @@ a {
         padding: 0;
     }
 
-    
-    #ramos, #languajes {
-        width: 80vw;
-        margin-left: 0;
+    #ramos{
+        width: 75vw;
         font-size: 15px;
+    }
+    
+    #languajes{
+        width: 75vw;
+        font-size: 15px;
+        margin: 0 0 15em 0;
     }
 }
 
@@ -463,7 +467,7 @@ a {
 }
 
 #languajes{
-    margin: 2em 0 0 7%;
+    margin: 2em 0 0 13%;
     font-size: 17px;
 }
 
@@ -484,13 +488,11 @@ a {
     height: 20em;
     width: 25.5em;
     padding: 0 0 0 0;
-    justify-content: center;
-    align-items: center;
 }
 
-.gh_img_desc{
+.gh_img_desc{   
     flex-direction: column;
-    width: 15em;
+    width: 18em;
     padding: 0 0 0 0;
 }
 
@@ -506,7 +508,7 @@ a {
 }
 
 .gh_image img{
-    width: 20em;
+    width: 19em;
     margin: 2em 0 0 0;     
 }
 
